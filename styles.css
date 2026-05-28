@@ -1,0 +1,127 @@
+:root {
+	font-family: "Public Sans", sans-serif;
+	font-size: 14px;
+}
+
+* {
+	box-sizing: border-box;
+}
+html,
+body {
+	height: 100%;
+}
+
+body {
+	margin: 48px;
+	background: #f6f3eb;
+	color: #2a221c;
+	-webkit-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	gap: 64px;
+}
+
+button {
+	font-family: inherit;
+	cursor: pointer;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+h1,
+h3,
+button {
+	font-family: "Lora", serif;
+}
+
+h1 {
+	font-size: 32px;
+	line-height: 10px;
+	letter-spacing: -0.5px;
+}
+
+h3 {
+	font-size: 17px;
+	font-weight: 500;
+}
+
+h5 {
+	font-size: 13px;
+	font-weight: 500;
+}
+
+h6 {
+	font-weight: 500;
+	font-size: 12px;
+}
+
+form {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+
+.grey-mall-text {
+	color: #4a3f36;
+}
+
+.grey-text {
+	color: #8a8074;
+}
+
+.btn {
+	border: none;
+	border-radius: 6px;
+	padding: 12px 48px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+	color: #4a3f36;
+	font-weight: bold;
+}
+
+.header {
+	display: flex;
+	align-items: flex-end;
+	gap: 12px;
+}
+
+.book-gallery {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 24px;
+}
+
+.book-card {
+	background-color: #ffffff;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	padding: 24px;
+	color: #2a221c;
+	border-radius: 10px;
+	border: 1px solid #d6cdb8;
+}
+
+.book-card-content {
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+}
+
+.book-card-chip {
+	padding: 2px 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #fbeedb;
+	color: #8a4a22;
+}
